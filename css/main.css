@@ -1,0 +1,133 @@
+/* 
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Merriweather', serif; */
+
+body{
+  background-color:whitesmoke;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+h1, h2, h3 {
+  font-family: 'Merriweather', serif; 
+}
+
+h1 {
+  margin: 0;
+  font-size: 3.5em;
+}
+
+h2{
+  font-size: 1.3em;
+  margin-bottom: 0;
+}
+
+.u-wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+
+.button {
+  color: inherit;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: rgb(255, 103, 15);
+  padding: 15px 30px;
+  border-radius: .4em;
+}
+.secondary {
+  background-color:transparent;
+  border: 1px solid white;
+}
+.header {
+  background-color: darkslategray;
+  color: white;
+}
+
+.header-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-menu-list {
+  display:flex;
+  list-style: none;
+}
+
+.header-menu-list-item a{
+  text-decoration: none;
+  color: inherit;
+  margin-left: 15px;
+}
+.content{
+  flex: 1;
+}
+
+.hero {
+  height: 500px;
+  background:linear-gradient(150deg,rgba(47, 79, 79,.5),rgba(47, 79, 79,.7)),url(../img/background.jpeg) no-repeat 50% 50%/cover;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.hero-text{
+  width: 90%;
+  font-size: 1.5em;
+  font-weight: 300;
+  /* margin-top: 0; */
+  margin-bottom: 100px;
+}
+
+.hero-action {
+  margin-right: 30px;
+}
+
+.blog {
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.blog-entries-item{
+  width: 31%;
+  margin-bottom: 15px;
+}
+.blog-entries-item-image{
+  max-width: 100%;
+}
+.blog-entries-item-footer{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.blog-entries-item-footer-author {
+  display: flex;
+  align-items: center;
+
+}
+.blog-entries-item-footer-author-img {
+  border-radius: 50%;
+  width: 20px;
+  margin-right: 10px;
+}
+.footer {
+  background-color: darkslategray;
+  color: white;
+}
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+.footer-text{
+  font-size: .8em;
+}
